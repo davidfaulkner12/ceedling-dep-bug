@@ -28,6 +28,6 @@ ERROR: Shell command failed.
 > And exited with status: [1].
 ```
 
-If I change #include <zlog.h> to include <zlog.c> in the test file it DOES work but that seems surprising.
+If I change `#include <zlog.h>` to `include <zlog.c>` in the test file it DOES work but that seems surprising.
 
 I would expect dependencies to work correctly and the same way for release and test.
